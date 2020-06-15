@@ -77,8 +77,8 @@ export class CastService {
     }
 
     var mediaInfo = new
-      chrome.cast.media.MediaInfo('http://i.imgur.com/IFD14.jpg');
-    mediaInfo.contentType = 'image/jpg';
+      chrome.cast.media.MediaInfo('https://youtu.be/o8RkZ0jlna8');
+    mediaInfo.contentType = 'video/mp4';
 
     var request = new chrome.cast.media.LoadRequest(mediaInfo);
     request.autoplay = true;
